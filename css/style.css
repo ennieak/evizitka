@@ -1,0 +1,86 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ 
+body {
+    background-color: #D8D3C9;
+}
+ 
+ 
+.vse {
+    display: grid;
+    grid-template-columns: 1.5fr 1.05fr 0.9fr;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 14px;
+    padding: 28px;
+    border-radius: 24px;
+    min-height: 700px;
+ 
+}
+
+.vse p {
+    font-size: 1rem;
+    line-height: 1.5;
+    opacity: 0.9;
+    padding: 28px;
+}
+
+.vse h3 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+    padding: 28px;
+}
+ 
+.zacatek {
+    grid-area: intro;
+    background-color: #F5F2EA;
+    border-radius: 24px;
+}
+
+.zacatek h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 1.1;
+    margin-bottom: 16px;
+}
+ 
+.zacatek .popisek {
+    font-size: 14px;
+    letter-spacing: 1px;
+    opacity: 0.7;
+    display: block;
+    margin-bottom: 12px;
+    padding: 28px;
+}
+ 
+.design {
+    grid-area: skills;
+    background-color: #181818;
+    border-radius: 24px;
+     color: #F5F2EA;
+}
+ 
+.projekt {
+    grid-area: project;
+    background-color: #D8FF45;
+    border-radius: 24px;
+   
+}
+ 
+.omne {
+    grid-area: about;
+    background-color: #F5F2EA;
+    border-radius: 24px;
+}
+ 
+.kontakt {
+    grid-area: contact;
+    background-color: #6758F5;
+    border-radius: 24px;
+     color: #F5F2EA;
+}
